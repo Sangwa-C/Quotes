@@ -1,0 +1,13 @@
+.welcome{
+  background-image: url("https://cache.desktopnexus.com/thumbseg/2303/2303145-bigthumbnail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+.home{
+  color:#CEC9BF;
+  padding-top:400px;
+  padding-left:800px;
+  font-size:2em;
+}

@@ -1,7 +1,8 @@
 ul{
   /* color:white; */
-  background-image: url("https://cache.desktopnexus.com/thumbseg/2303/2303145-bigthumbnail.jpg");
+  /* background-image: url("https://cache.desktopnexus.com/thumbseg/2303/2303145-bigthumbnail.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
+  line-height:30px;
 }

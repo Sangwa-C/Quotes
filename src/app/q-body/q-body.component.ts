@@ -17,9 +17,19 @@ export class QBodyComponent implements OnInit {
     new Quotes("“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”" , "― Marilyn Monroe", new Date(2019,1,27)),
     new Quotes("“I may not have gone where I intended to go, but I think I have ended up where I needed to be.”" , "― douglas adams", new Date(2019,6,27)),
   ]
+
+  // toggle(index){
+  //   this.khaki[index].showDate = !this.khaki[index].showDate;
+  // }
+  
   constructor() { }
 
   ngOnInit() {
   }
 
 }
+
+
+// toggleDetails(index){
+//   this.goals[index].showDescription = !this.goals[index].showDescription;
+// }

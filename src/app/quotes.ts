@@ -1,6 +1,6 @@
 export class Quotes {
-  public showDate: boolean;
-  constructor( public word: string ,public author:string, public completeDate: Date){
+  showDate: boolean;
+  constructor( public word: string ,public author:string, public nDate: Date){
     this.showDate=false;
   }
 

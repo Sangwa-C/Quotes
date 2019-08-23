@@ -5,19 +5,14 @@
   <div class="row"> 
     <div class="col-sm-6">
       <ul>
-        <li *ngFor='let k of khaki, let ch= index'>
-          {{k.word}}
-          {{k.author}}
-          <!-- {{k.completeDate|date}} -->
-         <!-- posted for {{k.completeDate|results}} days -->
-         <!-- <button (click) ="toggle(ch)">Details</button> -->
+        <div *ngFor='let khaki of khaki, let i= index'>
+          <li> {{khaki.word}} <br> {{khaki.author}}</li>
+          <button (click) ="details(i)">Details</button>
+          <app-quote-child  *ngIf='khaki.showDate' [khaki]="khaki"></app-quote-child>
 
-         <app-quote-child [khaki]="k"></app-quote-child>
-
-         <!-- {{k.completeDate|date}} -->
-
-        </li>
+        </div>
       </ul>
+
     </div>
 
     <div class="col-sm-6">
@@ -29,12 +24,3 @@
   </div>
 
 </div>
-
-<!-- 
-<ul>
-    <div *ngFor='let goal of goals;let i = index'>
-      <li>{{goal.name}}</li>
-      <button (click)='toggleDetails(i)'>Toggle Details</button>
-      <app-goal-detail *ngIf='goal.showDescription' [goal]='goal'></app-goal-detail>
-    </div>
-  </ul> -->

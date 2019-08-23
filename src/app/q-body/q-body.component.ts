@@ -18,9 +18,9 @@ export class QBodyComponent implements OnInit {
     new Quotes("“I may not have gone where I intended to go, but I think I have ended up where I needed to be.”" , "― douglas adams", new Date(2019,6,27)),
   ]
 
-  // toggle(index){
-  //   this.khaki[index].showDate = !this.khaki[index].showDate;
-  // }
+  details(index){
+    this.khaki[index].showDate = !this.khaki[index].showDate;
+  }
   
   constructor() { }
 

@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { QBodyComponent } from './q-body/q-body.component';
 import { DCountingPipe } from './d-counting.pipe';
 import { QuoteChildComponent } from './quote-child/quote-child.component';
+import { QFormComponent } from './q-form/q-form.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { QuoteChildComponent } from './quote-child/quote-child.component';
     QBodyComponent,
     DCountingPipe,
     QuoteChildComponent,
+    QFormComponent,
    
   ],
   imports: [

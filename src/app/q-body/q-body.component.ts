@@ -21,7 +21,20 @@ export class QBodyComponent implements OnInit {
   details(index){
     this.khaki[index].showDate = !this.khaki[index].showDate;
   }
-  
+
+  removeQuote(isComplete, index){
+    if (isComplete) {
+      this.khaki.splice(index,1);
+    }
+  }
+
+  addNewQuote(quote){
+    let goalLength = this.khaki.length;
+    quote.id = goalLength+1;
+    quote.completeDate = new Date(quote.completeDate)
+    this.khaki.push(quote)
+  }
+
   constructor() { }
 
   ngOnInit() {

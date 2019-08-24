@@ -6,3 +6,9 @@ ul{
   height: 1000px;
   line-height:30px;
 }
+
+
+*{
+  color:white;
+  background-color: black;
+}

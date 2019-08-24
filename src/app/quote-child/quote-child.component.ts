@@ -1,4 +1,4 @@
-import { Component, OnInit,Input } from '@angular/core';
+import { Component, OnInit,Input,Output,EventEmitter } from '@angular/core';
 import {Quotes} from "../quotes"
 @Component({
   selector: 'app-quote-child',
@@ -6,6 +6,13 @@ import {Quotes} from "../quotes"
   styleUrls: ['./quote-child.component.css']
 })
 export class QuoteChildComponent implements OnInit {
+
+  
+  @Output() isComplete = new EventEmitter<boolean>();
+
+  removeQuote(complete:boolean){
+    this.isComplete.emit(complete);
+  }
 
   @Input() khaki:Quotes;
   

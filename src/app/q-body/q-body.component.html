@@ -8,8 +8,8 @@
         <div *ngFor='let khaki of khaki, let i= index'>
           <li> {{khaki.word}} <br> {{khaki.author}}</li>
           <button (click) ="details(i)">Details</button>
-          <app-quote-child  *ngIf='khaki.showDate' [khaki]="khaki"></app-quote-child>
-
+          <app-quote-child  *ngIf='khaki.showDate' [khaki]="khaki" (isComplete) = "removeQuote($event,i)" ></app-quote-child>
+          <!-- <app-goal-detail *ngIf='goal.showDescription' [goal]='goal' (isComplete) = 'completeGoal($event,i)'></app-goal-detail> -->
         </div>
       </ul>
 
@@ -17,7 +17,8 @@
 
     <div class="col-sm-6">
       <div class="well">
-          <h1>abana</h1>
+        <!-- <h1>abana</h1> -->
+        <app-q-form (addQuote)="addNewQuote($event)"></app-q-form>
       </div>
       
     </div>

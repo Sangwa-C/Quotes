@@ -1,7 +1,9 @@
 <!-- <p>q-form works!</p> -->
 <div class="well">
     <h2 class="text-center">Write your own qoute :)</h2>
+
     <form (ngSubmit)='addquote()' #quoteForm='ngForm'>
+        
         <div class="form-group">
           <label for="author">Author</label>
           <input class="form-control" id="author" [(ngModel)]="newQuotes.author" name="author" #author="ngModel" required>

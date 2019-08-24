@@ -29,9 +29,9 @@ export class QBodyComponent implements OnInit {
   }
 
   addNewQuote(quote){
-    let goalLength = this.khaki.length;
-    quote.id = goalLength+1;
-    quote.completeDate = new Date(quote.completeDate)
+    // let goalLength = this.khaki.length;
+    // quote.id = goalLength+1;
+    quote.pDate = new Date(quote.pDate)
     this.khaki.push(quote)
   }
 

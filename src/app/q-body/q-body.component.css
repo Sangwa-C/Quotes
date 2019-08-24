@@ -5,8 +5,11 @@ ul{
 
 #second{
   padding-top:100px;
-  color:white;
-  background-image: url("http://www.4usky.com/data/out/26/164212854-design-wallpapers.jpg");
+  /* color:white; */
+  /* background-image: url("http://www.4usky.com/data/out/26/164212854-design-wallpapers.jpg"); */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQedPyHNu7bwqB5sRc5J68gBBerSttTxR6qmM7I8XXWVSH0IfnVXA");
+
+  /* background-color:aquamarine; */
   background-repeat:no-repeat;
   background-size:cover;
   height:1200px;

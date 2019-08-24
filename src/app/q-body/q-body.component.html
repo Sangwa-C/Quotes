@@ -7,6 +7,7 @@
     <div class="col-sm-6">
       <ul>
         <div *ngFor='let khaki of khaki, let i= index'>
+          
           <li style="font-family: 'Playfair Display', serif; font-size:1.2em;"> {{khaki.word}} </li>
           <p (click) ="details(i)"style="font-family: 'Satisfy', cursive;">{{khaki.author}}</p>
           <!-- <button (click) ="details(i)">-Details-</button> -->
@@ -17,8 +18,8 @@
     </div>
     <div class="col-sm-6">
       <div class="form">
-      <!-- <h1>abana</h1> -->
-      <app-q-form (addQuote)="addNewQuotes($event)"></app-q-form>
+        <!-- <h1>abana</h1> -->
+        <app-q-form (addQuote)="addNewQuotes($event)"></app-q-form>
       </div>
     </div>
   </div>

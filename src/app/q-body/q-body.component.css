@@ -1,14 +1,31 @@
 ul{
-  /* color:white; */
-  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQedPyHNu7bwqB5sRc5J68gBBerSttTxR6qmM7I8XXWVSH0IfnVXA"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1000px;
-  line-height:30px;
+  line-height:45px;
 }
 
 
-*{
+#second{
+  padding-top:100px;
   color:white;
-  /* background-color: black; */
+  background-image: url("http://www.4usky.com/data/out/26/164212854-design-wallpapers.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:1200px;
+}
+button{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQedPyHNu7bwqB5sRc5J68gBBerSttTxR6qmM7I8XXWVSH0IfnVXA");
+  color:white;
+  border-radius:50px;
+  /* margin-left:500px; */
+  /* float:right; */
+}
+
+.col-sm-6{
+  width:100%;
+  padding: 50px;
+}
+
+.form{
+  padding:100px;
+  background-color: black;
+  border-radius:50px;
 }

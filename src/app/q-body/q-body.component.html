@@ -1,4 +1,5 @@
-<div>
+<!-- <div class="container" > -->
+<div id="second" >
   <h1 style="text-align: center">Quotes</h1>
   <hr>
   <hr>
@@ -6,22 +7,21 @@
     <div class="col-sm-6">
       <ul>
         <div *ngFor='let khaki of khaki, let i= index'>
-          <li> {{khaki.word}} <br> {{khaki.author}}</li>
-          <button (click) ="details(i)">Details</button>
+          <li style="font-family: 'Playfair Display', serif; font-size:1.2em;"> {{khaki.word}} </li>
+          <p (click) ="details(i)"style="font-family: 'Satisfy', cursive;">{{khaki.author}}</p>
+          <!-- <button (click) ="details(i)">-Details-</button> -->
           <app-quote-child  *ngIf='khaki.showDate' [khaki]="khaki" (isComplete) = "removeQuote($event,i)" ></app-quote-child>
           <!-- <app-goal-detail *ngIf='goal.showDescription' [goal]='goal' (isComplete) = 'completeGoal($event,i)'></app-goal-detail> -->
         </div>
-      </ul>
-
+      </ul> 
     </div>
-
     <div class="col-sm-6">
-      <div class="well">
-        <!-- <h1>abana</h1> -->
-        <app-q-form (addQuote)="addNewQuotes($event)"></app-q-form>
+      <div class="form">
+      <!-- <h1>abana</h1> -->
+      <app-q-form (addQuote)="addNewQuotes($event)"></app-q-form>
       </div>
-      
     </div>
   </div>
-
 </div>
+<!-- </div> -->
+

@@ -1,11 +1,10 @@
 .welcome{
-  /* background-image: url("https://cache.desktopnexus.com/thumbseg/2303/2303145-bigthumbnail.jpg"); */
-  /* background-image: url("http://eskipaper.com/images/colorful-black-backgrounds-1.jpg"); */
-  background-image: url("http://www.4usky.com/data/out/26/164212854-design-wallpapers.jpg");
-  /* opacity:0.5; */
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
+  background-image: url("http://www.4usky.com/data/out/26/164212854-design-wallpapers.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 .home{
@@ -21,5 +20,4 @@ font-size:1.5em;
 
 h1{
   font-size:3.5em;
-  
 }

@@ -20,16 +20,10 @@
         </div>
         <div class="form-group">
           <label for="post">Posted on </label>
-          <input type='date' id="date" [(ngModel)]="newQuotes.completeDate" name="pDate" #pDate="ngModel" required >
-
-        </div>
-
-        <div class="form-group">
-            <label for="complete">Completion</label>
-            <input type='date' id="complete" [(ngModel)]="newGoal.completeDate" name="completeDate" #completeDate="ngModel" required>
-            <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
-            <p>Date is required</p>
-            </div>
+          <input type='date' id="date" [(ngModel)]="newQuotes.pDate" name="pDate" #pDate="ngModel" required >
+          <div [hidden]="pDate.valid || pDate.pristine" class="alert alert-danger">
+                <p>Date is required</p>
+          </div>
         </div>
         <button type="submit" class="btn btn-success">Add Goal</button>
     </form>

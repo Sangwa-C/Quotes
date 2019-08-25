@@ -10,7 +10,10 @@
           
           <li style="font-family: 'Playfair Display', serif; font-size:1.2em;"> {{khaki.word}} </li>
           <p (click) ="details(i)"style="font-family: 'Satisfy', cursive;">{{khaki.author}}</p>
-        
+
+          <!-- <li appHighlighting> {{khaki.word}}</li> -->
+
+
           <app-quote-child  *ngIf='khaki.showDate' [khaki]="khaki" (isComplete) = "removeQuote($event,i)" ></app-quote-child>
        
          <app-updown></app-updown>

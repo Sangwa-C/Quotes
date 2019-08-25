@@ -1,9 +1,15 @@
+# Delani Studio
+#### this is the website of Delani Studio, it contains informations about Delani Studio. Last edited on 29 july 2019.
+#### By **Sangwa Sabine Chelsea**
+
+
+
 # Dop Quotes
 
-This is a website of Dop Quotes, it contains motivating quotes. last edited on 25 August 2019.
+####This is a website of Dop Quotes, it contains motivating quotes. last edited on 25 August 2019.
 
 
-##By Sangwa Sabine Chelsea
+####*By Sangwa Sabine Chelsea*
 
 ##Description
 This website is for Dop Quotes, It is a webpage that displays quotes and allows the user to add a quote of they like.
@@ -31,12 +37,12 @@ This website is for Dop Quotes, It is a webpage that displays quotes and allows 
 
     Output Example: Author is required
 
-**The program should allow the user to remove quote from the list**
+<!-- **The program should allow the user to remove quote from the list**
 
 **The program should allow the user to upvote or downvote a quote**
 
 
- **The program should return when the user enter a message to be sent**
+ **The program should return when the user enter a message to be sent** -->
 
     Input Example:  (Quote : You only live once, but if you do it right, once is enough.)
 

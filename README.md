@@ -7,7 +7,7 @@ This is a website of Dop Quotes, it contains motivating quotes. last edited on 2
 ## *By Sangwa Sabine Chelsea*
 
 ## Description
-This website is for Dop Quotes, It is a webpage that displays quotes and allows the user to add a quote of they like, upvote & downvote a quote abd also to remove the quote if want it.
+This website is for Dop Quotes, It is a webpage that displays quotes and allows the user to add a quote of they like, upvote & downvote a quote abd also to remove the quote if want to.
 
 ## Setup/Installation Requirements
 * Connect to the internet

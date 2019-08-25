@@ -13,7 +13,7 @@ This website is for Dop Quotes, It is a webpage that displays quotes and allows 
 * Connect to the internet
 * Open your browser
 * In your browser adress bar type the following
-* 
+* https://sangwa-c.github.io/Quotes/
 * then you will directly be on their page
 
 ## BDD

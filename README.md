@@ -1,9 +1,9 @@
 # Dop Quotes
 
-# This is a website of Dop Quotes, it contains motivating quotes. last edited on 25 August 2019.
+This is a website of Dop Quotes, it contains motivating quotes. last edited on 25 August 2019.
 
 
-#By Sangwa Sabine Chelsea
+##By Sangwa Sabine Chelsea
 
 ##Description
 This website is for Dop Quotes, It is a webpage that displays quotes and allows the user to add a quote of they like.
@@ -14,6 +14,38 @@ This website is for Dop Quotes, It is a webpage that displays quotes and allows 
 * In your browser adress bar type the following
 * 
 * then you will directly be on their page
+
+## BDD
+
+**The program should accept input from the user.**
+
+    Input Example: (Quote : You only live once, but if you do it right, once is enough.)
+
+    Input Example: (Author: ― Mae West)
+    
+    input EXample: (Date: 25/12/2019)
+
+**The program should recognize if input field is empty**
+
+    Input Example: (empty field)
+
+    Output Example: Author is required
+
+**The program should allow the user to remove quote from the list**
+
+**The program should allow the user to upvote or downvote a quote**
+
+
+ **The program should return when the user enter a message to be sent**
+
+    Input Example:  (Quote : You only live once, but if you do it right, once is enough.)
+
+                    (Author: ― Mae West)
+    
+                    (Date: 25/12/2019)
+
+    Output Example: It will be displayed on the liste on the quotes.  
+
 
 ## Known Bugs
 This webpage is not suitable for all screen sizes.

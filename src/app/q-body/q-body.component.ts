@@ -18,9 +18,20 @@ export class QBodyComponent implements OnInit {
     new Quotes(6,"“I may not have gone where I intended to go, but I think I have ended up where I needed to be.”" , "― douglas adams", new Date(2019,6,27)),
   ]
 
+  // voteNbr=0;
+  // vote = true;
+
+  // voting(){
+  //   this.vote = true;
+  //   return this.voteNbr = this.voteNbr+ 1;
+  // }
+
+
   details(index){
     this.khaki[index].showDate = !this.khaki[index].showDate;
   }
+
+  
 
   removeQuote(isComplete, index){
     if (isComplete) {
@@ -28,10 +39,10 @@ export class QBodyComponent implements OnInit {
     }
   }
 
-  addNewQuote(quote){
-    // let quotaLength = this.khaki.length;
-    // quote.id = quotaLength+1;
-    quote.pDate = new Date(quote.pDate)
+  addNewQuotes(quote){
+    let quotaLength = this.khaki.length;
+    quote.id = quotaLength+1;
+    quote.post = new Date(quote.post)
     this.khaki.push(quote)
   }
 

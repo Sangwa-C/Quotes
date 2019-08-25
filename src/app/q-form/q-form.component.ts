@@ -7,6 +7,7 @@ import { Quotes } from "../quotes";
   styleUrls: ["./q-form.component.css"]
 })
 export class QFormComponent implements OnInit {
+
   newQuotes = new Quotes(0,"", "", new Date());
  
 

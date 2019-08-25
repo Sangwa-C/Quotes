@@ -13,6 +13,16 @@
           <!-- <button (click) ="details(i)">-Details-</button> -->
           <app-quote-child  *ngIf='khaki.showDate' [khaki]="khaki" (isComplete) = "removeQuote($event,i)" ></app-quote-child>
           <!-- <app-goal-detail *ngIf='goal.showDescription' [goal]='goal' (isComplete) = 'completeGoal($event,i)'></app-goal-detail> -->
+         <app-updown></app-updown>
+<!-- 
+
+          <div id="v">
+          <button (click)="voting()">{{voteNbr}}<img src="https://images-na.ssl-images-amazon.com/images/I/51-G3tQVdfL._SX425_.jpg"></button> 
+          </div> -->
+          
+          <!-- <button (click)="voting()">downvote</button> -->
+
+
         </div>
       </ul> 
     </div>

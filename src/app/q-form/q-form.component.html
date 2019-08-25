@@ -14,20 +14,20 @@
 
         <div class="form-group">
           <label for="quote">Quote</label>
-          <textarea type="text" class="form-control" id="word" [(ngModel)]="newQuotes.word" name="word" #word='ngModel' required></textarea>
-          <div [hidden]="word.valid || word.pristine" class="alert alert-danger">
+          <textarea type="text" class="form-control" id="word" [(ngModel)]="newQuotes.quote" name="quote" #quote='ngModel' required></textarea>
+          <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
             <p>Name is required</p>
             <!-- Display {{newQuotes.word}} -->
            </div>      
         </div>
         <div class="form-group">
           <label for="post">Posted on </label>
-          <input type='date' id="date" [(ngModel)]="newQuotes.pDate" name="pDate" #pDate="ngModel" required >
-          <div [hidden]="pDate.valid || pDate.pristine" class="alert alert-danger">
-                <p>Date is required</p>
+          <input type='date' id="date" [(ngModel)]="newQuotes.post" name="post" #post="ngModel" required >
+          <div [hidden]="post.valid ||post.pristine" class="alert alert-danger">
+            <p>Date is required</p>
           </div>
         </div>
-        <button type="submit" class="btn btn-success">Add Goal</button>
+        <button type="submit" class="btn btn-success">Post Quote</button>
     </form>
 </div>
 

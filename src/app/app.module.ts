@@ -9,6 +9,7 @@ import { DCountingPipe } from './d-counting.pipe';
 import { QuoteChildComponent } from './quote-child/quote-child.component';
 import { QFormComponent } from './q-form/q-form.component';
 import { UpdownComponent } from './updown/updown.component';
+import { HighlightingDirective } from './highlighting.directive';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { UpdownComponent } from './updown/updown.component';
     QuoteChildComponent,
     QFormComponent,
     UpdownComponent,
+    HighlightingDirective,
     
   ],
   imports: [

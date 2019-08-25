@@ -6,7 +6,7 @@ This is a website of Dop Quotes, it contains motivating quotes. last edited on 2
 
 ## *By Sangwa Sabine Chelsea*
 
-##Description
+###Description
 This website is for Dop Quotes, It is a webpage that displays quotes and allows the user to add a quote of they like.
 
 ## Setup/Installation Requirements

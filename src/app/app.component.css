@@ -2,15 +2,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
-  background-image: url("http://www.4usky.com/data/out/26/164212854-design-wallpapers.jpg");
+  background-image: url("./wallpapers.jpg");
   background-repeat:no-repeat;
   background-size:cover;
 }
 
 .home{
-  color:#CEC9BF;
+  color:rgb(250, 240, 181);
   padding-top:400px;
-  padding-left:300px;
+  padding-left:400px;
   font-family: 'Libre Baskerville', serif;;
 }
 

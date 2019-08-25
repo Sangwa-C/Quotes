@@ -6,7 +6,7 @@ This is a website of Dop Quotes, it contains motivating quotes. last edited on 2
 
 ## *By Sangwa Sabine Chelsea*
 
-###Description
+## Description
 This website is for Dop Quotes, It is a webpage that displays quotes and allows the user to add a quote of they like.
 
 ## Setup/Installation Requirements
@@ -32,12 +32,8 @@ This website is for Dop Quotes, It is a webpage that displays quotes and allows 
 
     Output Example: Author is required
 
-<!-- **The program should allow the user to remove quote from the list**
 
-**The program should allow the user to upvote or downvote a quote**
-
-
- **The program should return when the user enter a message to be sent** -->
+ **The program should return when the user enter a message to be sent** 
 
     Input Example:  (Quote : You only live once, but if you do it right, once is enough.)
 

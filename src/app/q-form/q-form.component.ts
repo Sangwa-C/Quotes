@@ -15,6 +15,7 @@ export class QFormComponent implements OnInit {
 
   addquote() {
     this.addQuotes.emit(this.newQuotes);
+    console.log(this.newQuotes)
   }
 
   constructor() {}

@@ -1,8 +1,3 @@
-# Delani Studio
-#### this is the website of Delani Studio, it contains informations about Delani Studio. Last edited on 29 july 2019.
-#### By **Sangwa Sabine Chelsea**
-
-
 
 # Dop Quotes
 

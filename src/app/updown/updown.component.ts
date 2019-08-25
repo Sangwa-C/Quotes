@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./updown.component.css']
 })
 export class UpdownComponent implements OnInit {
+  
 yup=0
 nopu=0
+
 san(){
   this.yup=this.yup+1
 }

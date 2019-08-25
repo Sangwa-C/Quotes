@@ -9,7 +9,6 @@ export class QBodyComponent implements OnInit {
 
   khaki:Quotes[]=[
 
-    // new Quotes("“Don't cry because it's over, smile because it happened.”" , "― Dr. Seuss", new Date(2017,1,14)),
     new Quotes(1,"“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”" , "― Bernard M. Baruch", new Date(2017,5,14)),
     new Quotes(2,"“A room without books is like a body without a soul.”" , "― Marcus Tullius Cicero", new Date(2017,12,25)),
     new Quotes(3,"“You've gotta dance like there's nobody watching, Love like you'll never be hurt, Sing like there's nobody listening, And live like it's heaven on earth.”" , "― William W. Purkey", new Date(2018,3,18)),
@@ -17,14 +16,6 @@ export class QBodyComponent implements OnInit {
     new Quotes(5,"“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”" , "― Marilyn Monroe", new Date(2019,1,27)),
     new Quotes(6,"“I may not have gone where I intended to go, but I think I have ended up where I needed to be.”" , "― douglas adams", new Date(2019,6,27)),
   ]
-
-  // voteNbr=0;
-  // vote = true;
-
-  // voting(){
-  //   this.vote = true;
-  //   return this.voteNbr = this.voteNbr+ 1;
-  // }
 
 
   details(index){
@@ -54,6 +45,3 @@ export class QBodyComponent implements OnInit {
 }
 
 
-// toggleDetails(index){
-//   this.goals[index].showDescription = !this.goals[index].showDescription;
-// }

@@ -6,14 +6,12 @@ ul{
 #second{
   font-size: 1.1em;
   padding-top:100px;
-  /* color:white;. */
   color:rgb(250, 240, 181);
   background-image: url("../wallpapers.jpg");
   background-color: rgba(0,0,0,0.1);
   z-index:5;
   overflow:auto;
   font-weight: bold;
-  /* background-color:aquamarine; */
   background-repeat:no-repeat;
   background-size:cover;
   height:1200px;
@@ -22,8 +20,6 @@ button{
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQedPyHNu7bwqB5sRc5J68gBBerSttTxR6qmM7I8XXWVSH0IfnVXA");
   color:white;
   border-radius:50px;
-  /* margin-left:500px; */
-  /* float:right; */
 }
 
 .col-sm-6{

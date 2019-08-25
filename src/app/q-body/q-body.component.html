@@ -10,25 +10,17 @@
           
           <li style="font-family: 'Playfair Display', serif; font-size:1.2em;"> {{khaki.word}} </li>
           <p (click) ="details(i)"style="font-family: 'Satisfy', cursive;">{{khaki.author}}</p>
-          <!-- <button (click) ="details(i)">-Details-</button> -->
+        
           <app-quote-child  *ngIf='khaki.showDate' [khaki]="khaki" (isComplete) = "removeQuote($event,i)" ></app-quote-child>
-          <!-- <app-goal-detail *ngIf='goal.showDescription' [goal]='goal' (isComplete) = 'completeGoal($event,i)'></app-goal-detail> -->
+       
          <app-updown></app-updown>
-<!-- 
-
-          <div id="v">
-          <button (click)="voting()">{{voteNbr}}<img src="https://images-na.ssl-images-amazon.com/images/I/51-G3tQVdfL._SX425_.jpg"></button> 
-          </div> -->
-          
-          <!-- <button (click)="voting()">downvote</button> -->
-
 
         </div>
       </ul> 
     </div>
     <div class="col-sm-6">
       <div class="form">
-        <!-- <h1>abana</h1> -->
+      
         <app-q-form (addQuote)="addNewQuotes($event)"></app-q-form>
       </div>
     </div>

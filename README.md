@@ -1,10 +1,10 @@
 
 # Dop Quotes
 
-####This is a website of Dop Quotes, it contains motivating quotes. last edited on 25 August 2019.
+This is a website of Dop Quotes, it contains motivating quotes. last edited on 25 August 2019.
 
 
-####*By Sangwa Sabine Chelsea*
+## *By Sangwa Sabine Chelsea*
 
 ##Description
 This website is for Dop Quotes, It is a webpage that displays quotes and allows the user to add a quote of they like.
